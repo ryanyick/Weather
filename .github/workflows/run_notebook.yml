@@ -20,7 +20,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install nbformat nbconvert pandas xlsxwriter
+          pip install nbformat nbconvert pandas xlsxwriter jupyter ipykernel
 
       - name: Run Jupyter Notebook
         run: python run_notebook.py
