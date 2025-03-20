@@ -20,7 +20,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install nbformat nbconvert pandas xlsxwriter smtplib
+          pip install nbformat nbconvert pandas xlsxwriter
 
       - name: Run Jupyter Notebook
         run: python run_notebook.py
